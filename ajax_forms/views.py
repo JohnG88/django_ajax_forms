@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 def photo_add_view(request):
     context = {}
-    return render(request, 'photos/index.html', context)
+    return render(request, 'ajax_forms/main.html', context)

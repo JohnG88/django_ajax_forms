@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ajax_forms',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -114,6 +115,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+# crispy
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
